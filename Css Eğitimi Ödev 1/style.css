@@ -1,0 +1,32 @@
+body{
+    background-color: #76BA99;
+    text-align: center;
+}
+.menu li{
+    color: #876445;
+    display: inline;
+    list-style: none;
+    margin-right: 1.9em;
+    padding: 0;
+    text-align:center;
+  }
+#header{
+    text-align: center;
+    color: #876445;
+}
+#product{
+    color: #EDDFB3;
+}
+.product li{
+    color: #CA955C;
+    list-style-position: inside;
+    text-align: center;
+    list-style: none;
+}
+.products li{
+    color: #EDDFB3;
+    list-style: none;
+}
+img{
+    height: 50px;
+}
