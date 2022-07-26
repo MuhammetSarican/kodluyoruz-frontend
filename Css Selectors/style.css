@@ -1,0 +1,32 @@
+body{
+    background-color:white;
+}
+ul>li:first-child{
+    color:rebeccapurple;
+    font-weight: bold;
+}
+li:last-child{
+    color:darkseagreen;
+}
+li:nth-child(even){
+    font-weight: lighter;
+    color:darkgrey;
+}
+li:nth-child(odd){
+    color: darkturquoise;
+}
+li:nth-child(2n){
+    color: forestgreen;
+}
+
+.color-blue.fw-bold{
+    /* if class be like this, this two class have to write both, if dont write both wont activate*/
+    color: blue;
+    font-weight: bold;
+}
+
+.color-red .fw-light{
+    /* if class be like this, elements must be nested */
+    color: red;
+    font-weight: lighter;
+}
