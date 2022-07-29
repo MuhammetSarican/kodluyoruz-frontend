@@ -1,0 +1,29 @@
+body{
+}
+.container{
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+}
+.search{
+    min-width: 500px;
+    margin-top: 0px;
+}
+.box{
+    float: left;
+    width: 33%;
+    min-height: 100px;
+    margin-bottom: 15px;
+}
+.color-aquamarine{
+    background-color: aquamarine;
+}
+.color-aqua{
+    background-color: aqua;
+}
+.color-green{
+    background-color: rgb(80, 165, 136);
+}
+.color-darkgray{
+    background-color: darkgray;
+}
